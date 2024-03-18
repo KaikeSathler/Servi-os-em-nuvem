@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css" media="screen">
-    <link rel="stylesheet" href="main2.css" media="print">
     <title>Document</title>
 </head>
 
@@ -14,7 +13,7 @@
         <div class="forms">
             <form action="#"s>
                 <h1>Consultar CEP</h1>
-                <input type="text" placeholder="Digite um CEP" id="cep">
+                <input type="number" placeholder="Digite um CEP" id="cep">
                 <button type="submit" onclick="ConsultadeCep(document.getElementById('cep').value)">enviar</button>
 
             </form>
@@ -31,7 +30,8 @@
         <div class="forms">
             <form action="#">
                 <h1>Consultar CNPJ</h1>
-                <input type="text" placeholder="Digite um CNPJ" id="cnpj">
+                <t style="color: rgb(240, 181, 103); font-size: small;">*Use Apenas Numeros, sem caracteres especiais.</t>
+                <input type="number" placeholder="Digite um CNPJ" id="cnpj">
                 <button id="button2" type="submit" onclick="pesquisarCNPJ(document.getElementById('cnpj').value)">enviar</button>
 
             </form>
