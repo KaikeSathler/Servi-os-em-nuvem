@@ -71,6 +71,8 @@ form button:hover  {
     text-align: center;
     padding: 2rem;
     flex-direction: column;
+    background-color: #fff;
+    margin: 1rem;
 }
 
 .dados-content {
